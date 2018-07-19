@@ -4,6 +4,7 @@ header {
     background: url("https://images.unsplash.com/photo-1445251045505-59e1ff1e3127?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=054e1fb03f5df8809d5acc7988fba4e7&auto=format&fit=crop&w=2031&q=80");
     background-size: cover;
     background-position-y: -100px;
+    border-bottom: 1px solid #f2663a;
 
 }
 
@@ -23,7 +24,9 @@ h1, h2, h3 {
 
 
 
-
+nav {
+    padding-top: 35px;
+}
 
 nav div {
     display: flex;
@@ -44,8 +47,7 @@ figure img {
 }
 
 .generic {
-    height: 400px;
-    width: 600px;
+
     margin-top: 40px;
 }
 
@@ -110,6 +112,7 @@ body {
     font-size: 16px;
     color: #14171a;
     background: #D4D1CD;
+    margin: 0;
 }
 
 div.destination {
@@ -120,4 +123,33 @@ div.destination {
 
 a {
     color: #1C6D4D;
+    text-decoration: none;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background: #14171a;
+}
+
+footer p {
+    color: #D4D1CD;
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
+#bio {
+    //width: 33%;
+    margin: 0 auto;
+    padding: 12%;
+}
+
+.accent:before {
+    //border-bottom: 2px solid #f2663a;
+    content: "* ";
+    color: #f2663a;
+}
+
+section:last-of-type {
+    margin-bottom: 150px;
 }
