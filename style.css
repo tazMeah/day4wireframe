@@ -1,3 +1,4 @@
+
 header {
     height: 200px;
     background: url("https://images.unsplash.com/photo-1445251045505-59e1ff1e3127?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=054e1fb03f5df8809d5acc7988fba4e7&auto=format&fit=crop&w=2031&q=80");
@@ -15,13 +16,14 @@ header img {
     height: 75px;
     width: 75px;
 }
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
+    font-family: "Arvo", Serif;
 }
 
-h3 {
-    text-align: center;
-}
+
+
+
 
 nav div {
     display: flex;
@@ -32,10 +34,13 @@ figure {
     display: flex;
     flex-direction: column;
     text-align: center;
+
 }
 figure img {
     height: 50px;
     margin: 0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .generic {
@@ -81,8 +86,38 @@ section img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #17A96D;
+    border-left: 1px solid #17A96D;
+    border-right: 1px solid #17A96D;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 1px 5px #ccc;
 }
 
+
+
 figcaption h4 {
-    margin-bottom: 0; /*no space under location title*/
+    margin-top: 0; /*no space under location title*/
+    margin-bottom: 0;
+    font-family: "Arvo", Serif ;
+    padding-top: 10px;
+}
+
+body {
+    font-family: "Lato", Sans-Serif;
+    font-size: 16px;
+    color: #14171a;
+    background: #D4D1CD;
+}
+
+div.destination {
+    background: white;
+    border-radius: 1px;
+    margin-bottom: 1px;
+}
+
+a {
+    color: #1C6D4D;
 }
