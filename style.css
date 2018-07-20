@@ -196,3 +196,15 @@ section:last-of-type {
     }
 }
 
+#logo {
+    animation: logo .75s forwards;
+    animation-iteration-count: 2;
+}
+
+@keyframes logo {
+    from {}
+
+    to {
+        transform: rotateY(180deg);
+    }
+}
