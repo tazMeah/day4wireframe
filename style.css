@@ -121,6 +121,10 @@ div.destination {
     margin-bottom: 1px;
 }
 
+.destination p {
+    padding-right: 40px;
+}
+
 a {
     color: #1C6D4D;
     text-decoration: none;
@@ -152,4 +156,10 @@ footer p {
 
 section:last-of-type {
     margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 675px) {
+    .destination p {
+        display: none;
+    }
 }
